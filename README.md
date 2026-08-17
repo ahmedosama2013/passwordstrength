@@ -10,4 +10,4 @@ A sleek website where you enter your password and instantly see how strong it is
 
 Made By : ahmedosama2013b@gmail.com
 
-Link : ahmedosama2013.github.io/passwordstrength/
+Link : https://ahmedosama2013.github.io/passwordstrength/
