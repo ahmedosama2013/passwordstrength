@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PasswordStrength</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-wrapper">
+        <div class="container">
+            <header>
+                <h1>PasswordStrength</h1>
+                <p class="subtitle">See how strong your password is.</p>
+            </header>
+
+            <div class="input-group">
+                <input type="password" id="password-input" placeholder="Enter password..." autocomplete="new-password">
+                <button type="button" class="toggle-btn" id="toggle-password">Show</button>
+            </div>
+
+            <div class="strength-meter">
+                <div class="strength-bar" id="strength-bar"></div>
+            </div>
+
+            <div class="status-container">
+                <span class="status-label">Security Score :</span>
+                <span id="strength-text">Empty</span>
+            </div>
+
+            <ul class="criteria-list">
+                <li class="criteria-item" id="length"><div class="criteria-icon"></div>Min 8 Characters</li>
+                <li class="criteria-item" id="uppercase"><div class="criteria-icon"></div>Uppercase Letter</li>
+                <li class="criteria-item" id="lowercase"><div class="criteria-icon"></div>Lowercase Letter</li>
+                <li class="criteria-item" id="number"><div class="criteria-icon"></div>Numeric Digit</li>
+                <li class="criteria-item" id="symbol"><div class="criteria-icon"></div>Special Symbol</li>
+            </ul>
+        </div>
+        
+        <footer>
+            <p>Made By : ahmedosama2013b@gmail.com</p>
+            <p><a href="https://github.com/ahmedosama2013/passwordstrength" target="_blank">View On Github</a></p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
